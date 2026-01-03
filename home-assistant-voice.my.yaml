@@ -1,0 +1,13 @@
+packages:
+  - !include home-assistant-voice.yaml
+
+micro_wake_word:
+  models:
+    - model: https://github.com/TaterTotterson/microWakeWords/raw/refs/heads/main/microWakeWords/viki.json
+      id: viki
+    - model: https://github.com/TaterTotterson/microWakeWords/raw/refs/heads/main/microWakeWords/hey_luna.json
+      id: hey_luna
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
