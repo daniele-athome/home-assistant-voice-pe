@@ -3,10 +3,14 @@ packages:
 
 micro_wake_word:
   models:
-    - model: https://github.com/TaterTotterson/microWakeWords/raw/refs/heads/main/microWakeWords/viki.json
-      id: viki
+    - model: https://github.com/TaterTotterson/microWakeWords/raw/refs/heads/main/microWakeWords/kira.json
+      id: kira
+    - model: https://github.com/TaterTotterson/microWakeWords/raw/refs/heads/main/microWakeWords/hey_karen.json
+      id: hey_karen
     - model: https://github.com/TaterTotterson/microWakeWords/raw/refs/heads/main/microWakeWords/hey_luna.json
       id: hey_luna
+    - model: https://github.com/TaterTotterson/microWakeWords/raw/refs/heads/main/microWakeWords/veronica.json
+      id: veronica
 
 wifi:
   ssid: !secret wifi_ssid
